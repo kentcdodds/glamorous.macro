@@ -34,9 +34,8 @@ const MyStyledInput = glamorous.input({
 
 **Note**:
 
-[`babel-plugin-glamorous-displayname`][babel-plugin-glamorous-displayname] allows you to have a few more APIs
-than you have with this macro, but this macro comes with all the benefits of using
-[`babel-plugin-macros`][babel-plugin-macros] (which you can read about in the `babel-plugin-macros` docs).
+You basically can replace all usage of the default export of glamorous with `glamorous.macro`. However, `glamorous.macro` does _not_ support named exports
+for built-in components.
 
 [npm]: https://www.npmjs.com/
 [node]: https://nodejs.org
