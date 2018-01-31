@@ -1,6 +1,6 @@
 {
   "name": "glamorous.macro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "add a displayName property to glamorous components",
   "main": "index.js",
   "keywords": [
